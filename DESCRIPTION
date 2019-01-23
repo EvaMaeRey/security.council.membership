@@ -1,0 +1,20 @@
+Package: security.council.membership
+Type: Package
+Title: Complete dataset of non permanent members of the Security Council and tenures
+Version: 0.1.0
+Authors@R: c( 
+    person("Gina", "Reynolds", , "evangeline.reynolds@du.edu", c("cre", "aut")))
+Description: 
+URL: https://github.com/EvaMaeRey/security.council.membership
+Depends:
+    R (>= 3.2)
+Imports:
+Suggests:
+License: CC0
+LazyData: true
+VignetteBuilder: knitr
+Collate:
+    'data.R'
+    'security.council.membership.R'
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
